@@ -1,0 +1,7 @@
+====== Stand-up Developer Wiki ======
+
+This the personal wiki of [[Luciano Ramalho]], stand-up programmer.
+
+I also have a wiki in [[http://ramalho.org/wiki/|Brazilian Portuguese]]. Content may or may not be translated from one to the other. [[http://tacma.net/|Terms and conditions may apply]].
+
+This wiki uses [[https://www.dokuwiki.org/dokuwiki|dokuwiki]]. Here's [[Why I picked dokuwiki|why]].

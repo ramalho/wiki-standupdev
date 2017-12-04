@@ -1,0 +1,12 @@
+====== Why I picked dokuwiki ======
+
+There are many wiki engines. The most famous is [[https://www.mediawiki.org/wiki/MediaWiki|MediaWiki]], used by Wikipedia. **MediaWiki** has lots of features, high performance, high scalability, and a huge community. However, managing a MediaWiki installation is not simple: the content is spread over dozens of MySQL tables, making backup and recovery cumbersome. Also, some updates require lots of manual steps.
+
+In contrast, [[https://www.dokuwiki.org/|docuwiki]] doesn't need a database to work. The pages are stored in plain ''.txt'' files, in a sensible directory structure. So it's trivial to backup -- I can even do it with ''git''. And it's also simple to write scripts to create or edit pages automatically.
+
+There are other wiki engines that store pages in plain text files. But among the ones I saw, **docuwiki** is the one that seems to be more widely used and supported. For example, it has lots of traslations, including Brazilian Portuguese, my native language.
+
+After I had made my choice I found a tweet by Rasmus Lerdorf (creator of PHP) which pretty much nailed it: 
+
+<HTML><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">We use <a href="https://twitter.com/dokuwiki?ref_src=twsrc%5Etfw">@DokuWiki</a> for <a href="https://t.co/SeGL1Bi7Fp">https://t.co/SeGL1Bi7Fp</a> - easy to manage, upgrade and backup</p>&mdash; Rasmus Lerdorf (@rasmus) <a href="https://twitter.com/rasmus/status/913676141558468609?ref_src=twsrc%5Etfw">September 29, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></HTML>
