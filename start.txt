@@ -1,4 +1,4 @@
-====== Stand-up Developer Wiki ======
+====== The Stand-up Developer Wiki ======
 
 This the personal wiki of [[Luciano Ramalho]], stand-up programmer.
 

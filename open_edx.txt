@@ -1,0 +1,59 @@
+====== Open edX ======
+
+> Open edX is an Open Source Web-based system for creating, delivering and an analysing online courses at massive scale.
+> //Nate Aune (Appsembler)//
+
+Open edX is also:
+
+  * Open Source (AGPL licensed)
+  * A Python application using the Django framework
+
+Open edX numbers (as of 2017):
+
+  * > 800 independent sites running Open exX
+  * > 5000 courses
+  * > 11 million learners at [[https://www.edx.org/|edX.org]]
+  * > 11 million learners at other Open edX sites
+
+
+===== Infrastructure =====
+
+Minimum of two servers: one for apps, the other for databases (MySQL and MongoDB).
+
+Cost estimate to run an Open edX site on 6 EC2 AWS instances: from USD 950 to USD 1400 per month ([[https://www.youtube.com/watch?v=61cahGRFnBQ#t=21m11s|video snippet]]).
+
+
+
+===== References =====
+
+==== Documentation ====
+
+  * [[https://open.edx.org/|Main Developer Portal]]
+  * [[http://docs.edx.org/|Documentation Index]]
+  * [[https://openedx.atlassian.net/wiki/spaces/COMM/pages|Community Wiki]]
+  * [[http://open-edx-proposals.readthedocs.io/en/latest/index.html|Proposals Index]]
+
+
+==== Presentations ====
+
+
+  * The Anatomy of Open edX -- Nate Aune, PyBay 2017 ([[https://www.youtube.com/watch?v=61cahGRFnBQ|video]])
+  * Open edX 2017 Conference [[https://openedx.atlassian.net/wiki/spaces/COMM/pages/160365365/Open+edX+2017+Presentations|presentations list]]
+
+==== Community resources ====
+
+  * [[https://openedx.slack.com/|Slack]]
+  * [[https://groups.google.com/forum/#!forum/edx-code|Mailing list]]
+  * Code repositories:
+    * [[https://github.com/edx/edx-platform|Main codebase]]
+    * [[https://github.com/edx/configuration|Ansible playbooks]]
+    * [[https://github.com/edx/devstack|Local development]]
+
+===== Alternatives =====
+
+  * https://alternativeto.net/software/open-edx/ (mostly alternatives to Open edX -- the software)
+  * https://alternativeto.net/software/edx-platform/ (mostly alternatives to edX -- the site)
+
+
+
+
