@@ -1,0 +1,39 @@
+====== Recursive examples ======
+
+From [[https://pastebin.com/E5f997cG|Al Sweigart's list of recursive programming problems.]]
+
+  - ALL FRACTALS (Sierpinski Triangle/Square, Koch Snowflake, Trees, Ferns, Hilbert Curve, etc.)
+  - fibonacci
+  - factorial
+  - GCD
+  - collatz sequence
+  - towers of hanoi
+  - eight queens problem
+  - hadamard matrix
+  - flood fill
+  - palindrome detection
+  - binary search
+  - reversing a string/linked list
+  - sum/multiply the numbers in a list
+  - sum the digits of a number
+  - binary tree traversal
+  - maze backtracking
+  - permutations
+  - combinations
+  - all subsets of a set
+  - quick sort
+  - merge sort
+  - boggle
+  - adding a child to a binary tree
+  - validating a binary tree
+  - making change with coins of various denominations
+  - find out if two nodes are connected in a graph
+  - editing distance/levenshtein distance
+  - knapsack problem (where items have value and size/weight)
+  - word ladders (least > last > lost > cost > coast > cast > cask > mask > mast > most)
+  - file system directory traversal
+  - number of paths through an N x N grid
+  - how many ways to go up N steps if you can go 1, 2, and/or 3 steps at a time
+  - find a magic index in a distinct (also, not distinct) sorted array, a magic index is i where A[i] == i
+  - get the highest stack of boxes from a set of boxes with widths/depths/heights and each box's width & depth must be equal/smaller than the one below it
+  - Newton's square root method

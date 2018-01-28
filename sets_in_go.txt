@@ -1,0 +1,30 @@
+====== Sets in Go ======
+
+=====Background: why sets are useful =====
+
+> Nobody has yet discovered a branch of mathematics that has successfully resisted formalization into set theory. (Thomas Forster, Logic Induction and Sets, p. 167)
+
+Boolean logic and set theory are closely related
+
+  * [[https://math.stackexchange.com/questions/209580/set-intersection-the-same-as-logical-conjunction|Intersection and conjunction]]
+
+===== Examples =====
+
+  * [[https://en.wikipedia.org/wiki/De_Morgan%27s_laws#Text_searching|De Morgan's laws applied to text searching]]
+
+===== Libraries =====
+
+  * [[http://clipperhouse.github.io/gen/|gen]]: type-driven code generation for Go
+  * [[https://github.com/deckarep/golang-set|golang-set]]: a simple set type for the Go language. Also used in Docker. 
+
+
+===== References =====
+
+  * [[https://twitter.com/sehurlburt/status/954234051262480384|Good intro to logic & set theory textbooks]] (Twitter thread)
+  * [[https://twitter.com/francesc/status/954831317656465409|Sometimes I miss generics (@francesc)]]  (Twitter thread)
+  * [[https://github.com/campoy/unique|unique]]: package unique provides primitives for sorting slices removing repeated elements.
+
+
+
+
+

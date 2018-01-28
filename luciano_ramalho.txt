@@ -1,5 +1,7 @@
 ====== Luciano Ramalho, stand-up programmer ======
 
+> I also have a wiki in [[http://ramalho.org/wiki/|Brazilian Portuguese]]. Content may or may not be translated from one to the other.
+
 Among other things, I am:
 
   * passionate about sharing knowledge, explaining things, and telling stories
@@ -13,6 +15,10 @@ Among other things, I am:
 Pages about stuff that I am studying:
 
   * [[Open edX]]
+  * [[Recursive examples]]
+  * [[Golang|Go]] (programming language)
+  * [[Sets in Go]]
+  * [[Speaking]]
 
 ==== dokuwiki experiments ====
 
@@ -23,6 +29,8 @@ Pages about stuff that I am studying:
 ==== References ====
 
   * {{ :modernism:cs-tr-02-9.pdf |Notes on Postmodern Programming}}, James Noble and Robert Biddle
-  * [[http://benhoyt.com/writings/littlelang/|Learning more Go and some computer science by implementing a language]]
-  * [[https://medium.com/@IndianGuru/how-do-i-go-about-learning-go-3a58a3a29a0b|How do I go about learning Go?]]
-  * [[https://commandcenter.blogspot.com.br/2017/12/error-handling-in-upspin.html|Error handling in Upspin]] by Rob Pike
+  * [[Go references]]
+
+==== Works in progress ====
+
+  * [[Introduction to TDD in Go]]

@@ -1,0 +1,48 @@
+====== Variable models in Go ======
+
+Go has three variable models: values, references, and pointers. In contrast, Java has two (values and references). Popular dynamic languages -- Python, Ruby, Javascript -- have only one: references.
+
+That was surprising to me at first. My confusion was compounded by the fact that Go has no syntax or convention to distinguish values and references. Pointer variable declarations are explicit thanks to the ''*'' symbol. In Java, reference types are always written with an initial upper case -- like ''String'' -- and value types such as ''int'' are named with lowercase only.
+
+In Go there are no visual clues: you have to know and remember that variables of special types like ''map'', ''chan'', and //slices// of any type behave as references((''string'' variables are also references in Go, but this never causes problems because strings are immutable in Go.)). Problems happen, for example, when you pass a slice to a function and that function changes the content of your slice when you were not expecting it.
+
+
+===== But isn't Go all about values?  =====
+
+Yes. But what are the values?
+
+If you have an array with 1 million elements and you pass that array to a function directly (without using a pointer), the entire array with 1 million elements will be copied to the parameter variable, which is a local variable in the function. A variable of any array type holds all the elements of the array, just like a simple 'int' variable holds the bits of the integer. 
+
+However, if you pass a slice to a function, the elements are not copied. The value of a slice is a hidden struct describing it. That struct has three fields:
+
+  - a pointer to the first element;
+  - an ''int'' holding the current length of the slice;
+  - an ''int'' holding the capacity -- the maximum number of elements the slice can contain.
+
+So the only data copied when you pass a slice to a function is that 3-field struct. This has two very important consequences:
+
+  - Passing a slice to a function is efficient, regardless of the length of the slice.
+  - The function can change the slice at will, and the effects will be seen by the caller.
+
+Other types like ''map'', ''chan'' and ''string'' are also represented by implicit structs containing pointers. The ''string'' type is immutable, so the fact that its handled like a reference variable is a harmless optimization. But maps and channels are mutable, so the caveats I mentioned for slices also apply: always keep in mind that passing one of those to a function means the function will be able to modify the referenced value, whether you want it or not.
+
+In the case of a channel, we naturally expect it will be consumed or fed by the function. For maps and slices, that is not the case, and subtle bugs may happen if a function is unexpectedly changing the data we pass to it.
+
+It is interesting to note that slices, maps and channels are built using the ''make'' function, which is one of the few generic functions in Go: it takes types as arguments. This is one example of //magic// in the language: mortal Go users are not able to create generic functions, but the Go creators can. Also, mortal Go users are not able to create other types that use implicit reference variables. Variables of user defined types will always be either value variables (holding the actual bytes of the struct) or pointers to them.
+
+
+===== References =====
+
+  * [[https://blog.golang.org/go-slices-usage-and-internals|Go Slices: usage and internals]]: by Andrew Gerrand in the official Go Blog. 
+  * [[https://www.goinggo.net/2013/08/understanding-slices-in-go-programming.html|Understanding slices]]: by Bill Kennedy, showing ''unsafe'' inspection of slice values.
+  * [[https://www.calhoun.io/why-are-slices-sometimes-altered-when-passed-by-value-in-go/|Why are slices sometimes altered when passed by value in Go?]] by John Calhoun.
+
+===== Ping back =====
+
+> If you like what you just read, please share it!
+> For comments or suggestions, please ping me on Twitter: [[https://twitter.com/standupdev/|@standupdev]].
+
+
+{{tag>golang programming_language reference_variables}}
+
+~~DISQUS~~

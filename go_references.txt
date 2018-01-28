@@ -1,0 +1,77 @@
+====== Go references ======
+
+===== Learning =====
+
+  * [[https://github.com/golang/go/wiki/Learn|Learn]] page in the official [[https://github.com/golang/go/wiki|Go wiki]] 
+  * [[https://dave.cheney.net/resources-for-new-go-programmers|Resources for new Go programmers]] by Dave Cheney
+  * [[https://medium.com/@IndianGuru/how-do-i-go-about-learning-go-3a58a3a29a0b|How do I go about learning Go?]]
+  * [[https://github.com/glycerine/thinkgo|Think Go. Pointers and resources for learning Go]]
+  * [[http://benhoyt.com/writings/littlelang/|Learning more Go and some computer science by implementing a language]]
+
+
+===== Language design and usage =====
+
+  * [[https://plus.google.com/+AndrewGerrand/posts/LmnDfgehorU|Use of named return values]] Brad Fitzpatrick, quoted by Andrew Gerrand
+  * [[https://stackoverflow.com/a/17610833|Go has too many ways of declaring variables]] Rob Pike quoted on StackOverflow
+  * [[https://go-proverbs.github.io/|Go Proverbs]]
+  * [[A story about simplicity in Go]] by [[https://twitter.com/rakyll|@rakyll]]
+  * [[https://rakyll.org/typesystem/|The Go type system for newcomers]] by [[https://twitter.com/rakyll|@rakyll]]
+  * [[https://rakyll.org/leakingctx/|Using contexts to avoid leaking goroutines]] by [[https://twitter.com/rakyll|@rakyll]]
+  * [[https://rakyll.org/interface-pollution/|Interface pollution in Go]] by [[https://twitter.com/rakyll|@rakyll]]
+
+
+===== Mind share =====
+
+  * [[https://opensource.com/article/17/11/why-go-grows|Why Go is skyrocketing in popularity]]
+
+===== Error handling =====
+
+  * [[https://commandcenter.blogspot.com.br/2017/12/error-handling-in-upspin.html|Error handling in Upspin]] by Rob Pike
+  * [[https://go-talks.appspot.com/github.com/edmontongo/presentations/2018-01/err/err.slide|to, err := human()]]: wide ranging slides with lots of references at the end.
+
+===== Variable models =====
+
+  * [[Variable models in Go]]
+  * [[https://www.goinggo.net/2013/08/understanding-slices-in-go-programming.html|Understanding slices]]: with ''unsafe'' inspection of slice values
+  * [[https://www.calhoun.io/why-are-slices-sometimes-altered-when-passed-by-value-in-go/|Why are slices sometimes altered when passed by value in Go?]] by Jon Calhoun
+
+===== Concurrency =====
+
+  * [[https://www.infoq.com/presentations/go-concurrency-gc|The Why of Go]]
+
+
+===== Packaging & Dependencies =====
+
+  * [[https://rakyll.org/style-packages/|Style guideline for Go packages]] by [[https://twitter.com/rakyll|@rakyll]]
+  * [[https://ieftimov.com/golang-package-multiple-binaries|Packing multiple binaries in a Golang package]]
+  * [[https://jve.linuxwall.info/blog/index.php?post/2015/08/26/Hosting_Go_code_on_Github_with_custom_import_path|Hosting Go code on Github with a custom import path]]
+
+
+===== Libraries ====
+
+
+==== Directories ====
+
+  * [[https://github.com/avelino/awesome-go|Awesome Go]]
+  * [[https://golanglibs.com/|GolangLibs.com]]
+
+==== Interesting Libraries ====
+
+  * [[https://github.com/machinebox/progress|machinebox/progress]]: io.Reader/Writer with progress and remaining time estimation
+  * [[https://github.com/gosuri/uiprogress|gosuri/uiprogress]]: render progress bars in terminal applications
+  * [[https://github.com/SimonWaldherr/golibs|golang functions]] to be included in other projects
+
+===== Go and Python ====
+
+  * [[https://yosefk.com/blog/things-from-python-id-miss-in-go.html|Things from Python I'd miss in Go]]
+  * [[https://hackernoon.com/extending-python-3-in-go-78f3a69552ac|Extending Python 3 in Go]]
+  * [[http://govspy.peterbe.com/|Go vs. Python]]: Learning Go by comparing how you'd do it in Python
+  * [[https://talks.golang.org/2013/go4python.slide#1|Go for Pythonistas]]
+
+===== etc. =====
+
+  * [[https://github.com/SimonWaldherr/golang-examples|Golang examples]] by Simon Waldherr & contributors
+  
+ 
+
+{{tag>golang programming_language}}

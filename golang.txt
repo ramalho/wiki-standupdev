@@ -1,0 +1,9 @@
+====== Go (programming language) ======
+
+===== Topics =====
+
+{{topic>golang}}
+
+{{tag>golang programming_languages}}
+
+

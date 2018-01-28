@@ -1,0 +1,7 @@
+====== A story about simplicity in go ======
+
+{{:golang-simplicity-rakyll.png}}
+
+Source: https://twitter.com/rakyll/status/944636952157884416
+
+{{tag>golang programming_language}}
