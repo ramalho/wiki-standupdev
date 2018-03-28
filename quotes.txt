@@ -1,0 +1,5 @@
+====== Quotes ======
+
+  *  A primary cause of complexity is that software vendors uncritically adopt almost any feature that users want. //Niklaus Wirth// 
+  *  C++ is an insult to the human brain. //Niklaus Wirth//
+  *  Many people tend to look at programming styles and languages like religions: if you belong to one, you cannot belong to others. But this analogy is another fallacy. //Niklaus Wirth//  

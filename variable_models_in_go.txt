@@ -33,9 +33,12 @@ It is interesting to note that slices, maps and channels are built using the ''m
 
 ===== References =====
 
+  * [[https://golang.org/doc/faq#references|Why are maps, slices, and channels references while arrays are values?]] in the official Go FAQ
   * [[https://blog.golang.org/go-slices-usage-and-internals|Go Slices: usage and internals]]: by Andrew Gerrand in the official Go Blog. 
   * [[https://www.goinggo.net/2013/08/understanding-slices-in-go-programming.html|Understanding slices]]: by Bill Kennedy, showing ''unsafe'' inspection of slice values.
   * [[https://www.calhoun.io/why-are-slices-sometimes-altered-when-passed-by-value-in-go/|Why are slices sometimes altered when passed by value in Go?]] by John Calhoun.
+  * [[https://nathanleclaire.com/blog/2014/08/09/dont-get-bitten-by-pointer-vs-non-pointer-method-receivers-in-golang/|Don't Get Bitten by Pointer vs Non-Pointer Method Receivers in Golang]]
+
 
 ===== Ping back =====
 

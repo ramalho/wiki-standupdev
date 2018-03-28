@@ -7,10 +7,12 @@
   * [[https://medium.com/@IndianGuru/how-do-i-go-about-learning-go-3a58a3a29a0b|How do I go about learning Go?]]
   * [[https://github.com/glycerine/thinkgo|Think Go. Pointers and resources for learning Go]]
   * [[http://benhoyt.com/writings/littlelang/|Learning more Go and some computer science by implementing a language]]
+  * [[http://yourbasic.org/golang/|Your basic Go]]
 
 
 ===== Language design and usage =====
 
+  * [[https://golang.org/doc/faq|FAQ]] in ''golang.org''
   * [[https://plus.google.com/+AndrewGerrand/posts/LmnDfgehorU|Use of named return values]] Brad Fitzpatrick, quoted by Andrew Gerrand
   * [[https://stackoverflow.com/a/17610833|Go has too many ways of declaring variables]] Rob Pike quoted on StackOverflow
   * [[https://go-proverbs.github.io/|Go Proverbs]]
@@ -18,27 +20,64 @@
   * [[https://rakyll.org/typesystem/|The Go type system for newcomers]] by [[https://twitter.com/rakyll|@rakyll]]
   * [[https://rakyll.org/leakingctx/|Using contexts to avoid leaking goroutines]] by [[https://twitter.com/rakyll|@rakyll]]
   * [[https://rakyll.org/interface-pollution/|Interface pollution in Go]] by [[https://twitter.com/rakyll|@rakyll]]
+  * [[https://www.ardanlabs.com/blog/2016/10/avoid-interface-pollution.html|Avoid interface pollution]] by William Kennedy 
+  * [[https://www.ardanlabs.com/blog/all-posts.html|Ardan Labs Blog]] by William Kennedy
+  * [[https://github.com/golang/go/wiki/SliceTricks|Slice tricks]] (Go Wiki)
+  * [[http://go-traps.appspot.com/#overview|Go traps]]
+  * [[https://github.com/golang/go/wiki/CommonMistakes|Common Mistakes]] (Go Wiki)
+  * [[http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/|Gotchas and common mistakes]]
+  * [[https://www.programming-idioms.org/|Programming-Idioms]] (several languages)
+  * [[https://nathanleclaire.com/blog/2014/08/09/dont-get-bitten-by-pointer-vs-non-pointer-method-receivers-in-golang/|Don't Get Bitten by Pointer vs Non-Pointer Method Receivers in Golang]]
+  * [[https://golang.org/doc/faq#methods_on_values_or_pointers|Should I define methods on values or pointers?]] (Go FAQ)
+  * [[https://mrekucci.blogspot.com.br/2015/07/dont-abuse-mathmax-mathmin.html|Don't abuse math.Max / math.Min]]: starting point for thinking about Go types and culture. 
+  * [[https://medium.com/@i0exception/some-common-traps-while-using-defer-205ebbdc0a3b|Some common traps while using defer]]
+  * Gotchas of Defer in Go: [[https://blog.learngoprogramming.com/gotchas-of-defer-in-go-1-8d070894cb01|part I]], [[https://blog.learngoprogramming.com/5-gotchas-of-defer-in-go-golang-part-ii-cc550f6ad9aa|part II]], [[https://blog.learngoprogramming.com/5-gotchas-of-defer-in-go-golang-part-iii-36a1ab3d6ef1|part III]]
+  * [[http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/|50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs]]
 
 
-===== Mind share =====
 
+===== Advocacy =====
+
+  * [[https://www.infoworld.com/resources/73073/application-development/what-you-need-to-know-about-google-go|What you need to know about Google Go]] ({{:pdf:golang-deep-dive.pdf|PDF}})
   * [[https://opensource.com/article/17/11/why-go-grows|Why Go is skyrocketing in popularity]]
+  * [[https://medium.freecodecamp.org/here-are-some-amazing-advantages-of-go-that-you-dont-hear-much-about-1af99de3b23a|Amazing advantages of Go that you don’t hear much about]]
+  * [[https://medium.com/@kevalpatel2106/why-should-you-learn-go-f607681fad65|Why should you learn Go?]]
+  * [[https://medium.com/@tjholowaychuk/farewell-node-js-4ba9e7f3e52b|Farewell Node.js]] by TJ Holowaychuk
 
 ===== Error handling =====
 
   * [[https://commandcenter.blogspot.com.br/2017/12/error-handling-in-upspin.html|Error handling in Upspin]] by Rob Pike
   * [[https://go-talks.appspot.com/github.com/edmontongo/presentations/2018-01/err/err.slide|to, err := human()]]: wide ranging slides with lots of references at the end.
 
+===== Testing =====
+  * [[https://www.youtube.com/watch?v=yszygk1cpEc|Advanced Testing with Go]] (video) by Mitchell Hashimoto
+  * [[https://nathanleclaire.com/blog/2015/10/10/interfaces-and-composition-for-effective-unit-testing-in-golang/|Interfaces and Composition for Effective Unit Testing in Golang]] (long post)
+  * [[https://segment.com/blog/5-advanced-testing-techniques-in-go/|5 Advanced Testing Techniques in Go]]
+  * [[https://dave.cheney.net/2013/06/09/writing-table-driven-tests-in-go|Writing Table Driven Tests in Go]] by Dave Cheney -- needs update to cover [[https://blog.golang.org/subtests|subtests]]
+  * Google I/O 2014: Testing Techniques by Andrew Gerrand: [[https://talks.golang.org/2014/testing.slide#1|slides]], [[https://www.youtube.com/watch?v=ndmB0bj7eyw|video]], [[https://twitter.com/standupdev/status/976909264374718466|quote about mocks]]
+  * Chapter 11 -- Testing -- of [[http://www.gopl.io/|The Go Programming Language]] by Donovan & Kernighan
+  * [[https://awesome-go.com/#testing|Testing]] in [[https://awesome-go.com/|Awesome Go]]
+  * [[https://medium.com/@dgryski/go-fuzz-github-com-arolek-ase-3c74d5a3150c|go-fuzz quick tutorial]]
+  * [[https://blog.codecentric.de/en/2017/08/gomock-tutorial/|Testing with GoMock: A Tutorial]]
+
+
 ===== Variable models =====
 
   * [[Variable models in Go]]
+  * [[https://golang.org/doc/faq#references|Why are maps, slices, and channels references while arrays are values?]] in the official Go FAQ
+  * [[https://blog.golang.org/go-slices-usage-and-internals|Go Slices: usage and internals]]: by Andrew Gerrand in the official Go Blog. 
   * [[https://www.goinggo.net/2013/08/understanding-slices-in-go-programming.html|Understanding slices]]: with ''unsafe'' inspection of slice values
   * [[https://www.calhoun.io/why-are-slices-sometimes-altered-when-passed-by-value-in-go/|Why are slices sometimes altered when passed by value in Go?]] by Jon Calhoun
+  * [[https://medium.com/@vCabbage/golang-understanding-slices-through-code-e098cd2467ea|Understanding Slices through Code]] by Kale Blankenship ([[https://twitter.com/vCabbage|vCabbage]])
 
 ===== Concurrency =====
 
   * [[https://www.infoq.com/presentations/go-concurrency-gc|The Why of Go]]
+  * [[http://dahernan.github.io/2015/02/04/context-and-cancellation-of-goroutines/|Context and cancellation of goroutines]]
 
+===== Deployment =====
+
+  * [[https://vincent.bernat.im/en/blog/2018-systemd-golang-socket-activation#fn-system|Integration of a Go service with systemd: socket activation]]
 
 ===== Packaging & Dependencies =====
 
@@ -46,8 +85,21 @@
   * [[https://ieftimov.com/golang-package-multiple-binaries|Packing multiple binaries in a Golang package]]
   * [[https://jve.linuxwall.info/blog/index.php?post/2015/08/26/Hosting_Go_code_on_Github_with_custom_import_path|Hosting Go code on Github with a custom import path]]
 
+===== Code generation =====
+
+  * [[https://awesome-go.com/#generation-and-generics|Generation and Generics]] in [[https://awesome-go.com/|Awesome Go]]
+  * [[https://awesome-go.com/#go-generate-tools|Go Generate Tools]] in [[https://awesome-go.com/|Awesome Go]]
+
+===== IoT =====
+
+  * [[https://www.thepolyglotdeveloper.com/2018/02/scan-ble-ibeacon-devices-golang-raspberry-pi-zero-w/|Scan For BLE iBeacon Devices With Golang On A Raspberry Pi Zero W]]
 
 ===== Libraries ====
+
+==== Standard library ====
+
+  * [[https://medium.com/go-walkthrough|Go Walkthrough]]
+
 
 
 ==== Directories ====
@@ -61,17 +113,30 @@
   * [[https://github.com/gosuri/uiprogress|gosuri/uiprogress]]: render progress bars in terminal applications
   * [[https://github.com/SimonWaldherr/golibs|golang functions]] to be included in other projects
 
+=== Embedding data in executables ===
+
+  * [[https://github.com/jteeuwen/go-bindata|go-bindata]] embeds binary data in a Go program.
+  * [[https://github.com/rakyll/statik|statik]] embeds a directory of static files into your Go binary to be later served from an ''http.FileSystem''
+  * [[https://github.com/gobuffalo/packr|packr]]: the simple and easy way to embed static files into Go binaries. 
+
 ===== Go and Python ====
 
   * [[https://yosefk.com/blog/things-from-python-id-miss-in-go.html|Things from Python I'd miss in Go]]
   * [[https://hackernoon.com/extending-python-3-in-go-78f3a69552ac|Extending Python 3 in Go]]
   * [[http://govspy.peterbe.com/|Go vs. Python]]: Learning Go by comparing how you'd do it in Python
-  * [[https://talks.golang.org/2013/go4python.slide#1|Go for Pythonistas]]
+  * [[https://talks.golang.org/2013/go4python.slide#1|Go for Pythonistas]] by Francesc Campoy Flores
+  * [[https://talks.golang.org/2012/zen.slide#1|Go and the Zen of Python]] by Andrew Gerrand ([[https://twitter.com/enneff|@enneff]])
 
-===== etc. =====
+===== Examples =====
 
+  * [[Proxy in a tweet]]
   * [[https://github.com/SimonWaldherr/golang-examples|Golang examples]] by Simon Waldherr & contributors
-  
+  * [[http://herman.asia/open-source-go-projects-to-learn-from|Excellent Open Source Go Projects]] ranked by code quality
+  * [[https://github.com/kevinschoon/pomo|pomo]]: is a simple CLI for using the Pomodoro Technique.
+  * [[https://github.com/alash3al/wsify|Wsify]]: tiny real-time pub/sub server with [[https://redis.io/|Redis]]
+  * [[https://gist.github.com/aarti/71a2570d99062424a3386def98c2eb2e|Handler vs HandlerFunc]] 
  
 
 {{tag>golang programming_language}}
+
+~~DISQUS~~

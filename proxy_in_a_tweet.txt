@@ -1,0 +1,28 @@
+====== Proxy in a tweet ======
+
+Source: https://twitter.com/heptajohn/status/957748274529734658
+
+{{:go-proxy-tweet.png?nolink&300 |}}
+
+<code go>
+package main
+
+import (
+	"io"
+	"net"
+)
+
+func main() {
+	s, _ := net.Listen("tcp", ":8080")
+	for {
+		l, _ := s.Accept()
+		r, _ := net.Dial("tcp", "localhost:8081")
+		go io.Copy(l, r)
+		go io.Copy(r, l)
+	}
+}
+
+</code>
+
+
+{{tag>golang programming_language}}

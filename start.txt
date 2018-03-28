@@ -6,6 +6,7 @@ This wiki uses [[https://www.dokuwiki.org/dokuwiki|dokuwiki]]. Here's [[Why I pi
 
 ===== Featured pages =====
 
+  * [[patterns_for_decentralised_organising|8 Patterns for Decentralised Organising]]
   * [[Python tuples are immutable but may change]]
   * [[Variable models in Go]]
   * [[Go references|Links about Go]]

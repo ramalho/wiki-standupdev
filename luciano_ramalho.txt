@@ -19,6 +19,7 @@ Pages about stuff that I am studying:
   * [[Golang|Go]] (programming language)
   * [[Sets in Go]]
   * [[Speaking]]
+  * [[Quotes]]
 
 ==== dokuwiki experiments ====
 

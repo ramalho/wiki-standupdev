@@ -1,0 +1,27 @@
+===== About Patterns for Decentralised Organising =====
+
+[[https://github.com/rdbartlett/patterns|Original repo]]
+
+
+==== 2017 workshop tour ====
+
+This year we’re touring the world, meeting with all kinds of groups who are trying to work without hierarchical management structures: co-ops, startups, NGOs, companies, activist networks, etc. We host workshops to share the body of knowledge we’re collecting along the way.
+
+==== Enspiral: more people working on stuff that matters ====
+
+Enspiral is a self-organising **network **of self-organising **companies **and **teams**. We support each other to do **meaningful work**: education, governance, food systems, conscious entrepreneurship, mad science, “stuff that matters”.
+
+We are pragmatic idealists learning how to use our **differences as a collective resource**. We are focussed on many **different projects** and we use **different language** to describe who we are and what we do.
+
+Our **shared values** mean we prioritise the **common good **before private gain. We are discovering organisational structures that encourage **relationships of respect** and **equality** rather than **hierarchy** and **domination**.
+
+==== Loomio: technology for decentralised organising ====
+
+Loomio is open source software for **small scale digital democracy**. There are people all over the world, in groups of 3-300, using it to **deliberate** and **make decisions** to organise themselves. **Co-ops** write their constitution, **companies** decide on the annual budget and strategy, **boards** make decisions between meetings, **activists** coordinate community projects, **philanthropists** approve funding applications, **government officials** and **experts** deliberate with **citizens** on new policy.
+
+Loomio is built by a worker-owned cooperative in Aotearoa New Zealand, globally respected for our commitment to **ethical business** and **non-hierarchical management**.
+
+> Try the software: [[https://loomio.org|loomio.org]]
+
+===== Read the cooperative handbook: loomio.coop =====
+
