@@ -7,7 +7,7 @@ Among other things, I am:
   * passionate about sharing knowledge, explaining things, and telling stories
   * the author of [[http://shop.oreilly.com/product/0636920032519.do|Fluent Python]] (O'Reilly, 2015)
   * a co-founder of [[https://garoa.net.br/wiki/P%C3%A1gina_principal|Garoa Hacker Clube]], a thriving hackerspace in São Paulo, Brazil, operating since 2010
-  * a principal consultant at [[https://www.thoughtworks.com/|ThoughWorks]]
+  * a principal consultant at [[https://www.thoughtworks.com/|ThoughtWorks]]
   * a board game inventor
 
 ===== Memos to self =====

@@ -10,3 +10,4 @@ This wiki uses [[https://www.dokuwiki.org/dokuwiki|dokuwiki]]. Here's [[Why I pi
   * [[Python tuples are immutable but may change]]
   * [[Variable models in Go]]
   * [[Go references|Links about Go]]
+  * [[sets_in_go|Sets in Go]]

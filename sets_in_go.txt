@@ -8,22 +8,32 @@ Boolean logic and set theory are closely related
 
   * [[https://math.stackexchange.com/questions/209580/set-intersection-the-same-as-logical-conjunction|Intersection and conjunction]]
 
+
 ===== Examples =====
+
+[{{ :go:floorgoban.jpg?200|Web search result for "go set".}}]
 
   * [[https://en.wikipedia.org/wiki/De_Morgan%27s_laws#Text_searching|De Morgan's laws applied to text searching]]
 
 ===== Libraries =====
 
   * [[http://clipperhouse.github.io/gen/|gen]]: type-driven code generation for Go
-  * [[https://github.com/deckarep/golang-set|golang-set]]: a simple set type for the Go language. Also used in Docker. 
+  * [[https://github.com/deckarep/golang-set|golang-set]]: a simple set type for the Go language. Used in Docker. [[https://www.reddit.com/r/golang/comments/1hlijg/a_simple_set_type_for_the_go_language/|coding talk]]
+  * [[https://github.com/standupdev/strset|strset]]: Go ''Set'' type with rich API to hold ''string'' elements.
+
 
 
 ===== References =====
 
+
+
   * [[https://twitter.com/sehurlburt/status/954234051262480384|Good intro to logic & set theory textbooks]] (Twitter thread)
   * [[https://twitter.com/francesc/status/954831317656465409|Sometimes I miss generics (@francesc)]]  (Twitter thread)
   * [[https://github.com/campoy/unique|unique]]: package unique provides primitives for sorting slices removing repeated elements.
+  * [[https://softwareengineering.stackexchange.com/questions/177428/sets-data-structure-in-golang|Why Go lacks a set type?]]
+  * [[https://speakerdeck.com/ramalho/pratica-de-conjuntos|Go sets in practice]] (slides in PT-BR)
 
+{{tag>golang programming_language logic math}}
 
 
 
